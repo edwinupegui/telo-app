@@ -1,4 +1,5 @@
 {
+  "id": "/?source=pwa",
   "name": "Telo App",
   "short_name": "Telo",
   "description": "Aplicación de telo.",
@@ -9,6 +10,20 @@
   "scope": "/",
   "start_url": "/",
   "splash_pages": null,
+  "screenshots": [
+    {
+      "src": "/images/screenshot1.jpg",
+      "type": "image/jpg",
+      "sizes": "1080x1440",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "/images/screenshot2.jpg",
+      "type": "image/jpg",
+      "sizes": "1440x1080",
+      "form_factor": "wide"
+    }
+  ],
   "icons": [
     {
       "src": "icons/icon-48x48.png",
