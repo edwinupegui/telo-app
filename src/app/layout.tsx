@@ -1,4 +1,4 @@
-import RootLayout from '@/components/templates/Layou'
+import RootLayout from '@/components/templates/Layout'
 
 export default function HomeLayoutPage({
   children,
