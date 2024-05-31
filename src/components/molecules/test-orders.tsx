@@ -15,7 +15,7 @@ import {
   TableRow,
 } from '@/components/atoms/table'
 
-export default function Orders() {
+export default function TestOrders() {
   return (
     <Card>
       <CardHeader className="px-7">

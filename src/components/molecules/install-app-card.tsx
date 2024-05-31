@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 
+import { Button } from '../atoms/button'
 import {
   Card,
   CardContent,
@@ -7,7 +8,6 @@ import {
   CardHeader,
   CardTitle,
 } from '../atoms/card'
-import { Button } from '@nextui-org/react'
 
 interface DeferredPrompt extends Event {
   prompt(): void

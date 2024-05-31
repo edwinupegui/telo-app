@@ -1,15 +1,10 @@
 {
   "overrides": [
     {
-      "files": [
-        "**/*.{ts,tsx}"
-      ]
+      "files": ["**/*.{ts,tsx}"]
     }
   ],
-  "ignorePatterns": [
-    "public/*",
-    "*.js"
-  ],
+  "ignorePatterns": ["public/*", "*.js"],
   "extends": [
     "next/core-web-vitals",
     "plugin:@typescript-eslint/recommended",
@@ -17,10 +12,7 @@
     "plugin:prettier/recommended",
     "prettier"
   ],
-  "plugins": [
-    "tailwindcss",
-    "simple-import-sort"
-  ],
+  "plugins": ["tailwindcss", "simple-import-sort"],
   "rules": {
     "prettier/prettier": "error",
     "arrow-body-style": "off",
@@ -35,20 +27,9 @@
       "error",
       {
         "groups": [
-          [
-            "^react$",
-            "^next"
-          ],
-          [
-            "^[a-zA-Z0-9.]",
-            "^@[a-zA-Z0-9]"
-          ],
-          [
-            "^@/api",
-            "^@/hooks",
-            "^@/common",
-            "^@/utils"
-          ],
+          ["^react$", "^next"],
+          ["^[a-zA-Z0-9.]", "^@[a-zA-Z0-9]"],
+          ["^@/api", "^@/hooks", "^@/common", "^@/utils"],
           [
             "^@/styles",
             "^@/components/atoms",
