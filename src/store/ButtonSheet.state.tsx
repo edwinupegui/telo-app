@@ -1,11 +1,11 @@
 import { create } from 'zustand'
 
-interface UseBottomSheet {
+interface StoreButtomSheet {
   isSheetOpen: boolean
   setIsSheetOpen: (isSheetOpen: boolean) => void
 }
 
-export default create<UseBottomSheet>((set) => ({
+export const useStoreButtomSheet = create<StoreButtomSheet>((set) => ({
   isSheetOpen: false,
   setIsSheetOpen: (isSheetOpen) => set({ isSheetOpen }),
 }))

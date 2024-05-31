@@ -38,13 +38,14 @@ import {
 import { ModeToggle } from '@/components/atoms/mode-toggle'
 import { Sheet, SheetContent, SheetTrigger } from '@/components/atoms/sheet'
 
-import useBottonSheet from '@/hook/useBottonSheet'
+import { useStoreButtomSheet } from '@/store/ButtonSheet.state'
+
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode
 }>) {
-  const { isSheetOpen, setIsSheetOpen } = useBottonSheet()
+  const { isSheetOpen, setIsSheetOpen } = useStoreButtomSheet()
 
   return (
     <html lang="en" suppressHydrationWarning>
