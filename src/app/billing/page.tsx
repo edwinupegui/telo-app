@@ -1,5 +1,3 @@
-const BillingPage = () => {
+export default function BillingPage() {
   return <div>facturación</div>
 }
-
-export default BillingPage
