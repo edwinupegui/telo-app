@@ -1,11 +1,11 @@
-import { Badge } from "@/components/atoms/badge";
+import { Badge } from '@/components/atoms/badge'
 import {
   Card,
   CardContent,
   CardDescription,
   CardHeader,
   CardTitle,
-} from "@/components/atoms/card";
+} from '@/components/atoms/card'
 import {
   Table,
   TableBody,
@@ -13,7 +13,7 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from "@/components/atoms/table";
+} from '@/components/atoms/table'
 
 export default function Orders() {
   return (
@@ -168,5 +168,5 @@ export default function Orders() {
         </Table>
       </CardContent>
     </Card>
-  );
+  )
 }

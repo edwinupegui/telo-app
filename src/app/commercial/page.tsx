@@ -1,5 +1,5 @@
-const commercialPage = () => {
-  return <div>comercial</div>;
-};
+const CommercialPage = () => {
+  return <div>comercial</div>
+}
 
-export default commercialPage;
+export default CommercialPage
